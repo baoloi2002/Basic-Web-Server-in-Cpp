@@ -13,6 +13,15 @@
 #define SOCKET_ERROR -1
 #endif
 
+/**
+ * @brief Entry point of the program.
+ *
+ * This function creates a web server socket, binds it to an IP address and
+ * port, listens for incoming connections, and sends a simple HTTP response to
+ * the client.
+ *
+ * @return int Returns 0 on successful execution.
+ */
 int main() {
     std::cout << "Attempting to create a server socket..." << std::endl;
 
